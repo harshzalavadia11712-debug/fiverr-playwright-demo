@@ -1,8 +1,8 @@
-# Fiverr Playwright Automation Demo
+# 🎭 Fiverr Playwright Automation Demo
 
-Professional end-to-end test automation framework built with **Playwright + TypeScript**.
+A professional end-to-end web automation framework built with **Playwright + TypeScript**.
 
-This project demonstrates a scalable automation structure suitable for modern web applications, including Page Object Model, reusable test data, cross-browser execution, reporting, and CI/CD integration.
+This project demonstrates a scalable automation architecture suitable for modern web applications, including UI testing, API validation, reusable Page Objects, test data management, reporting, and CI/CD execution.
 
 ---
 
@@ -13,29 +13,14 @@ This project demonstrates a scalable automation structure suitable for modern we
 - Node.js
 - Playwright Test Runner
 - Page Object Model (POM)
-- Git & GitHub
+- API Testing
 - GitHub Actions
-- HTML Test Reports
+- Cross-Browser Testing
+- HTML Reports
 
 ---
 
-## 🧪 What This Framework Covers
-
-- End-to-end UI automation
-- User login and authentication flows
-- Form validation
-- Web application navigation
-- Reusable page objects
-- Test data management
-- Cross-browser testing
-- Parallel test execution
-- Screenshots and traces on failures
-- Automated test reporting
-- CI/CD execution with GitHub Actions
-
----
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 fiverr-playwright-demo/
@@ -45,16 +30,20 @@ fiverr-playwright-demo/
 │       └── playwright.yml
 │
 ├── pages/
-│   └── Page Object classes
+│   ├── LoginPage.ts
+│   └── ProductsPage.ts
 │
 ├── test-data/
-│   └── Test data and test configuration
+│   └── LoginData.ts
 │
 ├── tests/
-│   └── Automated test cases
+│   ├── api.spec.ts
+│   ├── cart.spec.ts
+│   ├── checkout.spec.ts
+│   ├── login.spec.ts
+│   └── products.spec.ts
 │
 ├── playwright.config.ts
-├── package.json
 ├── tsconfig.json
-├── .gitignore
+├── package.json
 └── README.md
