@@ -1,60 +1,64 @@
 # 🎭 Fiverr Playwright Automation Demo
 
+[![Playwright Tests](https://github.com/harshzalavadiya11712-debug/fiverr-playwright-demo/actions/workflows/playwright.yml/badge.svg)](https://github.com/harshzalavadiya11712-debug/fiverr-playwright-demo/actions/workflows/playwright.yml)
+
 A professional end-to-end web automation framework built with
 **Playwright + TypeScript**.
 
-This project demonstrates a scalable automation architecture suitable
-for modern web applications, including UI testing, API validation,
-Page Object Model, test data management, reporting, cross-browser
-testing, and CI/CD execution.
+This project demonstrates how modern web applications can be automated
+using a scalable and maintainable test architecture.
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 What This Project Covers
 
-- Playwright
-- TypeScript
-- Node.js
-- Playwright Test Runner
-- Page Object Model (POM)
-- API Testing
-- GitHub Actions
-- Cross-Browser Testing
-- HTML Reports
+- ✅ UI / End-to-End Testing
+- ✅ API Testing
+- ✅ Page Object Model (POM)
+- ✅ Reusable Test Components
+- ✅ Test Data Management
+- ✅ Cross-Browser Testing
+- ✅ HTML Test Reports
+- ✅ GitHub Actions CI/CD
+- ✅ Automated Regression Testing
+- ✅ TypeScript-based Test Automation
 
 ---
 
 ## 🧪 Test Coverage
 
-The framework currently includes automated tests for:
+### UI Testing
 
-- 🔐 Login & Authentication
-- 🛍️ Product Listing
-- 🛒 Shopping Cart
-- 💳 Checkout
-- 🔌 API Validation
-- 📊 Product Sorting
-- 🧾 Test Data Management
-- 🌐 Cross-Browser Execution
+- Login functionality
+- Product validation
+- Product sorting
+- Add-to-cart functionality
+- Checkout flow
 
-**Current Test Suite:** 13 automated tests
+### API Testing
+
+- Successful API response validation
+- Response data validation
+- POST request validation
+- Resource creation
+- Invalid resource / 404 validation
 
 ---
 
 ## 🏗️ Project Structure
 
 ```text
-fiverr-playwright-demo/
+Fiverr-Playwright-Demo/
 │
 ├── pages/
 │   └── ProductsPage.ts
 │
 ├── tests/
-│   ├── login.spec.ts
-│   ├── products.spec.ts
+│   ├── api.spec.ts
 │   ├── cart.spec.ts
 │   ├── checkout.spec.ts
-│   └── api.spec.ts
+│   ├── login.spec.ts
+│   └── products.spec.ts
 │
 ├── test-data/
 │   └── loginData.ts
@@ -67,4 +71,21 @@ fiverr-playwright-demo/
 ├── tsconfig.json
 ├── package.json
 ├── .gitignore
-└── README.md
+└── README.md   
+
+---
+
+## 👨‍💻 Author
+
+**Harsh Zalavadia**
+
+QA Automation Engineer specializing in:
+
+- Playwright Automation
+- TypeScript
+- End-to-End Testing
+- API Testing
+- Regression Automation
+- CI/CD
+
+📌 Available for custom Playwright automation and QA testing projects.
